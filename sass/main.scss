@@ -2,7 +2,7 @@
 //@import "../node_modules/bootstrap/scss/bootstrap";
 
 @import "abstract_or_utilities/variables";
-@import "abstract_or_utilities/functions";
+//@import "abstract_or_utilities/functions";
 @import "abstract_or_utilities/mixins";
 
 //@import "vendors/bootstrap";
@@ -13,25 +13,28 @@
 
 @import "layout/header";
 @import "layout/footer";
-@import "layout/forms";
+//@import "layout/forms";
 //@import "layout/grid";
 @import "layout/navigation";
 
-@import "components_or_modules/buttons";
-@import "components_or_modules/carousel";
-@import "components_or_modules/slider";
-@import "components_or_modules/cart_number";
-@import "components_or_modules/categories";
-@import "components_or_modules/hoverExpand";
-@import "components_or_modules/home_card";
-@import "components_or_modules/form.scss";
-@import "components_or_modules/verticalMenu.scss";
+//@import "components_or_modules/buttons";
+//@import "components_or_modules/carousel";
+//@import "components_or_modules/slider";
+//@import "components_or_modules/cart_number";
+//@import "components_or_modules/categories";
+//@import "components_or_modules/hoverExpand";
+//@import "components_or_modules/home_card";
+//@import "components_or_modules/form.scss";
+//@import "components_or_modules/verticalMenu.scss";
+@import "components_or_modules/absolute";
+@import "components_or_modules/searchform";
 
 @import "pages/home";
-@import "pages/category";
-@import "pages/about";
-@import "pages/contact";
-@import "pages/responsiveHome";
-
-@import "themes/admin";
-@import "themes/theme";
+@import "pages/acdeal";
+//@import "pages/about";
+//@import "pages/contact";
+//@import "pages/responsiveHome";
+//@import "themes/admin";
+//@import "themes/theme";
+@import "vendors/responsive";
+@import "vendors/responsive_acdeal";

@@ -1,0 +1,128 @@
+.flexx {
+  padding: 50px 0;
+  color: $home-text-color;
+
+  &-heading {
+    text-align: center;
+  }
+
+  &-body {
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% + 20px);
+    left: -18px;
+    position: relative;
+
+    .f-link {
+      @include link-white;
+      float: left;
+      background-color: #f2f2f2;
+      border-radius: 4px;
+      margin: 20px 0 0 20px;
+      padding: 40px 7px;
+      text-align: center;
+      color: #777;
+      vertical-align: top;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      &:hover {
+        @include link-white;
+        background: $secondary-color;
+        color: white;
+        transform: scale(1.05);
+        transition: 0.4s;
+      }
+      i {
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+      .f-head {
+        display: inline-block;
+        width: 100% !important;
+        white-space: nowrap;
+        overflow: hidden !important;
+        text-overflow: ellipsis;
+        font-size: 14px;
+      }
+    }
+  }
+
+  &-buttons {
+    text-align: center;
+    padding-bottom: 1rem;
+    a {
+      @include link-white;
+      display: inline-block;
+      color: white;
+      background: $secondary-color;
+      padding: 1rem;
+      font-size: 1.4rem;
+
+      &:hover {
+        @include link-white;
+      }
+    }
+  }
+}
+
+.add {
+  margin: 30px auto;
+  text-align: center;
+
+  img {
+    cursor: pointer;
+    max-width: 100%;
+    margin: auto;
+  }
+}
+
+.video-container {
+  padding: 15px 15px 50px;
+  background: $video-color;
+  text-align: center;
+
+  h1 {
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+  }
+
+  video {
+    max-width: 100%;
+    border: 1px solid rgb(164, 170, 202);
+  }
+}
+
+.upper-footer {
+  box-sizing: border-box;
+  text-align: center;
+  padding: 6rem;
+
+  a {
+    text-decoration: none;
+    display: inline-block;
+    color: $home-text-color;
+
+    &:hover {
+      text-decoration: none;
+      color: black;
+    }
+
+    i {
+      display: block;
+      font-size: 60px;
+      margin-bottom: 20px;
+      color: $header-color;
+    }
+
+    h4 {
+      font-size: 19px;
+      margin: 0;
+    }
+  }
+}

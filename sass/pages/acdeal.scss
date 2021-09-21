@@ -1,0 +1,172 @@
+.add-ac-deal {
+  background: $light-back;
+  padding: 25px 10px;
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 97%;
+    //height: 200px;
+  }
+}
+//ac dealers in coimbatore
+
+.ac-dealers {
+  padding: 15px 30px;
+  background: $light-back;
+  h4 {
+    background: white;
+    padding: 15px;
+    margin: 0;
+    color: $home-text-color;
+    border-radius: 2px;
+    font-size: 16px;
+  }
+  &-list {
+    margin-top: 5px;
+    padding: 0;
+    list-style: none;
+
+    &-item {
+      display: inline-block;
+      padding-right: 10px;
+      margin-top: 5px;
+      font-size: 14px;
+    }
+  }
+}
+//cards all three
+.cardd {
+  padding-bottom: 30px;
+  background: $light-back;
+  &-all-three {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    .hot-categories {
+      position: sticky;
+      top: 150px;
+      margin-top: 20px;
+
+      &-expand {
+        background: white;
+        z-index: 90;
+        position: relative; //why don know
+        margin-bottom: 10px;
+        box-shadow: 0 1px 4px -1px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+
+        h4 {
+          background: $header-color;
+          color: white;
+          text-align: center;
+          padding: 8px 20px;
+          margin-bottom: 5px;
+          font-size: 14px;
+        }
+
+        &-scroll {
+          overflow-y: auto;
+          height: 492px;
+          margin-right: 2px !important;
+          margin-bottom: 5px !important;
+
+          ul {
+            list-style: none;
+            padding: 0;
+            li {
+              width: 100%;
+              display: inline-block;
+              margin: 1px 0;
+              transition: 0.2s;
+              cursor: default;
+              padding-left: 10px;
+              a {
+                span {
+                  font-size: 13px;
+                  float: right;
+                  color: #888;
+                  padding: 8px 0;
+                  &:hover {
+                    color: black;
+                  }
+                }
+                .hot-span {
+                  display: inline-block;
+                  width: 100% !important;
+                  white-space: nowrap;
+                  overflow: hidden !important;
+                  text-overflow: ellipsis;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  } //hot categpries end
+  &-main {
+    margin: 20px 0 0;
+    //padding: 0;
+    position: sticky;
+    top: 0;
+
+    .cardd-container {
+      margin: 0;
+      padding: 0;
+      border-radius: 4px;
+      .card {
+        border-radius: 5px;
+        margin-bottom: 13px;
+        &-body {
+          font-size: 13px;
+          color: $home-text-color;
+          font-weight: 600;
+          h4 {
+            font-size: 1.7rem !important;
+            color: black;
+          }
+          ul {
+            color: $home-text-color;
+            padding-bottom: 7px;
+
+            li {
+              display: block;
+              padding: 6px;
+              a {
+                color: $home-text-color;
+              }
+            }
+          }
+          .card-link {
+            display: inline-block;
+            background: $header-color;
+            color: white;
+            padding: 10px;
+            border-radius: 3px;
+          }
+        }
+      }
+    }
+  }
+}
+
+#link-inline {
+  background: $light-back;
+  padding: 0 30px 8px;
+  font-size: 12px;
+  ul {
+    border-top: 1px solid $home-text-color;
+    padding: 10px 0;
+    li {
+      display: contents;
+      a {
+        color: $home-text-color;
+        &:hover {
+          color: black;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

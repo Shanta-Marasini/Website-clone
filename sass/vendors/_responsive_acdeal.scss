@@ -1,0 +1,54 @@
+//wide screens  max-width:1240px
+@include mediaXl {
+}
+
+//desktops & laptops  max-width: 992px
+@include mediaLg {
+  .cardd {
+    .hot-categories-hidden {
+      display: none;
+    }
+  }
+} //media query
+
+//tablets & small laptops max-width:768px
+@include mediaMd {
+  .add-ac-deal {
+    display: none;
+  }
+
+  .cardd {
+    &-all-three {
+      .hot-categories {
+        position: sticky;
+        top: 80px;
+      }
+    }
+    &-main {
+      padding: 0;
+    }
+  }
+} //media query
+
+// max-width:767px
+@include mediarelated {
+  .cardd {
+    .related-categories-hidden {
+      display: none;
+    }
+  }
+}
+
+// max-width:576px
+@include mediaSm {
+  .ac-dealers {
+    padding: 15px 20px;
+  }
+  #link-inline {
+    padding: 0 20px 8px;
+  }
+}
+
+//max-width:405
+@include mediaXsm {
+}
